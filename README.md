@@ -18,3 +18,12 @@ This repository contains a browser-based end-to-end test for Google Search.
 
    ```bash
    ./start.sh
+
+## Manually Run
+1. Navigate to "https://www.google.com/".
+2. Determine whether a cookie consent banner is present, and if so, either accept or reject it.
+3. Enter a search query in the search bar and initiate the search by clicking "Submit" or pressing "Enter."
+4. Confirm if the search results are visible on the page.
+5. Click on the first search result, which is a website link.
+6. Validate whether you have been redirected to a different website.
+7. Verify the redirection to the new website using assertions or checks as needed.
